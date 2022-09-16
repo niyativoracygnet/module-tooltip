@@ -1,0 +1,20 @@
+{
+    "name": "dividebuym2/module-tooltip",
+    "description": "Dividebuy Tooltip",
+    "license": "MIT",
+    "require": {
+        "php": ">=7.4.0"
+    },
+    "type": "magento2-module",
+    "version": "1.0.0",
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Dividebuy\\Tooltip\\": ""
+        }
+    },
+    "minimum-stability": "stable",
+    "prefer-stable": true
+}
